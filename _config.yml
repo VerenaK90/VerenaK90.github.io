@@ -1,8 +1,8 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
+title: Somatic evolution research group
+subtitle: 
 email: verena.korber@ndcls.ox.ac.uk
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: We are interested in a quantitative understanding of human stem cell dynamics, and their propagation along differentiation cascades in healthy individuals, during aging and malignant transformation. To this end, we leverage advanced mathematical modeling, multi-ome next generation sequencing and functional validation in vivo. 
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
