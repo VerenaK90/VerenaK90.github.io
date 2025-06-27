@@ -8,6 +8,7 @@ nav-menu: true
 <div id="main" class="alt">
 
 <!-- One -->
+<section id="one">
 	<div class="inner">
 		<header class="major">
 			<h1>People</h1>
@@ -24,5 +25,7 @@ nav-menu: true
 </dl>
 
 </div>
+
+</section>
 
 </div>
