@@ -17,11 +17,10 @@ nav-menu: true
 
 <!-- Content -->
 
-<h4>Definition</h4>
 <dl>
 	<dt>Verena Körber</dt>
 	
-<p><span class="image left"><img src="{% link assets/images/PhotoVK.png %}" </p>
+<p><span class="image left"><img src="{% link assets/images/Photo_VK.png %}" </p>
 	
 	<dd>
 		<p>Verena is a Systems Biologist by training and holds a strong interest in the dynamics governing somatic evolution. In her previous position as postdoc with Paresh Vyas, she developed SCIFER, a computational tool to quantify drift and selection in human hematopoiesis. Before that, she worked as a postdoc and PhD student with Thomas Höfer to quantify the evolutionary dynamics governing malignant transformation and tumor growth in neuroblastoma and glioblastoma.</p>
