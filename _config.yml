@@ -5,11 +5,11 @@ email: verena.korber@ndcls.ox.ac.uk
 description: Somatic stem cells sustain tissue homeostasis by tightly balancing self-renewal and differentiation into increasingly fate-restricted progenitor and precursor cells. Positive selection of mutant stem cell clones perturbs this balance, as has been observed in malignancies and during aging. We are interested in a quantitative understanding of human stem cell dynamics, and their propagation along differentiation cascades in healthy individuals, during aging and malignant transformation. To this end, we leverage advanced mathematical modeling, multi-ome next generation sequencing and functional validation in vivo. Our research focuses specifically on human hematopoiesis and the nervous system and, ultimately, aims to aid improvements in screening, disease monitoring and treatment of cancer.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author:
-street_address: 
-city: 
+author: Dr. Verena Körber
+street_address: Weatherall Institute of Molecular Medicine, Headley Way
+city: Oxford
 state: 
-zip_code: 
+zip_code: OX3 9DS
 country: 
 phone: 
 
