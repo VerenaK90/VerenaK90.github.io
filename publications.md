@@ -9,11 +9,11 @@ nav-menu: true
 	<div class="inner">
 
   		<header class="major">
-			<h2>2024-2025</h1>
+			<h2>2024-2025</h2>
 		</header>
 
   		<header class="major">
-			<h2>2019-2023</h1>
+			<h2>2019-2023</h2>
 		</header>
 
 </div>
