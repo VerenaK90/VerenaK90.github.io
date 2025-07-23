@@ -48,7 +48,7 @@ nav-menu: true
    		</header>
 <!-- Content -->
 <dd>
-	<p>Turkalj, S.*, Stoilova, B.*, Groom, A.J.*, Radtke, F.A.*, Mecklenbrauck, R.*, Jakobsen, N.A., Lachowiez, C.A., Metzner, M., Usukhbayar, B., Angulo Salazar, M., Zeng, Z., Loghavi, S. et al. (my authorship at position 14). "Rapid clonal selection within early hematopoietic cell compartments presages outcome to ivosidenib combination therapy." Preprint at BioRxiv, doi: https://doi.org/10.1101/2024.12.30.630700 (2025).</p>
+	<p>Turkalj, S.*, Stoilova, B.*, Groom, A.J.*, Radtke, F.A.*, Mecklenbrauck, R.*, Jakobsen, N.A., Lachowiez, C.A., Metzner, M., Usukhbayar, B., Angulo Salazar, M., Zeng, Z., Loghavi, S. et al. "Rapid clonal selection within early hematopoietic cell compartments presages outcome to ivosidenib combination therapy." Preprint at BioRxiv, doi: https://doi.org/10.1101/2024.12.30.630700 (2025).</p>
 	<p>Di Muzio, G.*, Benedetto, S.*, Wang, L.-C., Weber, L., van der Hoeven, F., Armstrong, B., Lu, H.-J., Berlanda, J., Körber, V., Claudino, N., Krogemann, M., Höfer, T.§ & Wei, P.-C.§. "Adaptive Clonal Expansion Shapes Brain Development." Preprint at BioRxiv, doi: https://doi.org/10.1101/2025.03.04.641452 (2025).</p>
 </dd>
 
