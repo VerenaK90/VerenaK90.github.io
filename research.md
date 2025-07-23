@@ -1,6 +1,6 @@
 ---
 title: Research
-layout: landing
+layout: research
 description: 'tbd'
 nav-menu: true
 ---
