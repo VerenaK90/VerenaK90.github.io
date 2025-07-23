@@ -2,7 +2,6 @@
 title: Research
 layout: landing
 description: 'tbd'
-<!-- image: assets/images/pic07.jpg -->
 nav-menu: true
 ---
 
