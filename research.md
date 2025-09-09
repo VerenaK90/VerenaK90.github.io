@@ -1,7 +1,6 @@
 ---
 title: Research
 layout: research
-description: 'tbd'
 image: assets/images/Research.png
 nav-menu: true
 ---
