@@ -7,7 +7,7 @@ nav-menu: true
 ---
 
 <!-- Main -->
-<div id="main", class="inner">
+<div id="main" class="inner">
 
 <!-- One -->
 <section id="one">
