@@ -2,6 +2,7 @@
 layout: page
 title: People
 nav-menu: true
+image: assets/images/People.png
 ---
 
 <!-- Main -->
