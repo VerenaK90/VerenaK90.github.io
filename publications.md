@@ -8,7 +8,6 @@ image: assets/images/Publications.png
 <!-- One -->
 <section id="one">
 	<div class="inner">
-
   		<header class="major">
 			<h2>2024-2025</h2>
 		</header>
