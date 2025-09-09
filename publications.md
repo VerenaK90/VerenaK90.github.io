@@ -2,6 +2,7 @@
 layout: post
 title: Publications
 nav-menu: true
+image: assets/images/Publications.png
 ---
 
 <!-- One -->
