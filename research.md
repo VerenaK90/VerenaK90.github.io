@@ -2,6 +2,7 @@
 title: Research
 layout: research
 description: 'tbd'
+image: assets/images/Header.png
 nav-menu: true
 ---
 
