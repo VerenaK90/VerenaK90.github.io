@@ -6,7 +6,7 @@ image: assets/images/People.png
 ---
 
 <!-- Main -->
-<div id="main" class="major">
+<div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
