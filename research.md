@@ -1,6 +1,6 @@
 ---
-title: Research
 layout: page
+title: Research
 image: assets/images/Research.png
 nav-menu: true
 ---
