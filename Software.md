@@ -12,14 +12,14 @@ image: assets/images/Software.png
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>&L&A&X&S&E&I&S (LACHESIS)</h1>
+			<h1>&L;&A&X;&S;&E;&I;&S; (LACHESIS)</h1>
 		</header>
 
 <!-- Content -->
 
 <dl>
 	<dd>
-		<p><a href= "https://github.com/VerenaK90/LACHESIS">&L&A&X&S&E&I&S</a>is an R package to infer tumor evolution during malignant transformation from bulk whole genome sequencing data. It uses somatic variants as a molecular clock to date malignant transformation (in the tumor's <i>most recent common ancestor</i>, MRCA) and the acquisition of clonal copy number changes. Additionally, &L&A&X&S&E&I&S tests whether there is evidence for an <i>early common ancestor</i> (ECA), oncogenic events acquired prior to malignant transformation. &L&A&X&S&E&I&S also provides modalities to compare tumor evolution across patient collectives, and to correlate evolutionary timings with outcome.</p>
+		<p><a href= "https://github.com/VerenaK90/LACHESIS">&L;&A;&X;&S;&E;&I;&S;</a>is an R package to infer tumor evolution during malignant transformation from bulk whole genome sequencing data. It uses somatic variants as a molecular clock to date malignant transformation (in the tumor's <i>most recent common ancestor</i>, MRCA) and the acquisition of clonal copy number changes. Additionally, &L;&A;&X;&S;&E;&I;&S; tests whether there is evidence for an <i>early common ancestor</i> (ECA), oncogenic events acquired prior to malignant transformation. &L;&A;&X;&S;&E;&I;&S; also provides modalities to compare tumor evolution across patient collectives, and to correlate evolutionary timings with outcome.</p>
 	</dd>
 
 
