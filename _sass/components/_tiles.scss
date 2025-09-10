@@ -168,8 +168,8 @@
 		@include breakpoint(medium) {
 			article {
 				width: auto !important;
-				@include vendor('flex', '0 0 50% !imortant');
-    			max-width: 50% !imoportant;
+				@include vendor('flex', '0 0 50% !important');
+    			max-width: 50% !important;
 			}
 		}
 
