@@ -163,6 +163,9 @@
 				@include vendor('flex', '0 0 50% !important');
     			max-width: 50% !important;
 			}
+			article:last-of-type:nth-of-type(odd) {
+    			@include vendor('flex', '0 0 100% !important'); max-width: 100% !important; width: 100% !important;
+  			}
 		}
 
 		@include breakpoint(medium) {
@@ -171,6 +174,9 @@
 				@include vendor('flex', '0 0 50% !important');
     			max-width: 50% !important;
 			}
+			article:last-of-type:nth-of-type(odd) {
+    			@include vendor('flex', '0 0 100% !important'); max-width: 100% !important; width: 100% !important;
+  			}
 		}
 
 		@include breakpoint(small) {
