@@ -12,14 +12,14 @@ image: assets/images/Software.png
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>&Lambda;&Aalpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma; (LACHESIS)</h1>
+			<h1>&Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma; (LACHESIS)</h1>
 		</header>
 
 <!-- Content -->
 
 <dl>
 	<dd>
-		<p><a href= "https://github.com/VerenaK90/LACHESIS">&Lambda;&Aalpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma;</a> is an R package to infer tumor evolution during malignant transformation from bulk whole genome sequencing data. It uses somatic variants as a molecular clock to date malignant transformation (in the tumor's <i>most recent common ancestor</i>, MRCA) and the acquisition of clonal copy number changes. Additionally, &Lambda;&Aalpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma;; tests whether there is evidence for an <i>early common ancestor</i> (ECA), oncogenic events acquired prior to malignant transformation. &Lambda;&Aalpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma;; also provides modalities to compare tumor evolution across patient collectives, and to correlate evolutionary timings with outcome.</p>
+		<p><a href= "https://github.com/VerenaK90/LACHESIS">&Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma;</a> is an R package to infer tumor evolution during malignant transformation from bulk whole genome sequencing data. It uses somatic variants as a molecular clock to date malignant transformation (in the tumor's <i>most recent common ancestor</i>, MRCA) and the acquisition of clonal copy number changes. Additionally, &Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma;; tests whether there is evidence for an <i>early common ancestor</i> (ECA), oncogenic events acquired prior to malignant transformation. &Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma;; also provides modalities to compare tumor evolution across patient collectives, and to correlate evolutionary timings with outcome.</p>
 	</dd>
 
 
