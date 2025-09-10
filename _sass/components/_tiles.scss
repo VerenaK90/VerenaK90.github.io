@@ -28,13 +28,14 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			background-color: _palette(bg); // fallback if no background-image
 			cursor: default;
 			height: 40vh;
 			max-height: 40em;
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 80%;
+			width: 40%;
 
 			.image {
 				display: none;
@@ -76,6 +77,7 @@
 				position: absolute;
 				width: 100%;
 				z-index: 2;
+				background-color: _palette(bg);// Ensure the dark overlay has a color even without nth-child rules
 			}
 
 			&:after {
