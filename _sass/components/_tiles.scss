@@ -90,6 +90,8 @@
 				top: 0;
 				width: 100%;
 				z-index: 1;
+				background-color: _palette(bg) !important;// Ensure the dark overlay has a color even without nth-child rules
+
 			}
 
 			&:hover {
