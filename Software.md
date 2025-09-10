@@ -2,7 +2,7 @@
 layout: page
 title: Software
 nav-menu: true
-image: assets/images/OpenPositions.png
+image: assets/images/Software.png
 ---
 
 <!-- Main -->
