@@ -147,7 +147,7 @@
 				}
 			}
 			/* If the total number of tiles is odd, make the LAST one full-width */
-			&:last-child:nth-child(odd) {
+			&:last-of-type:nth-of-type(odd) {
  				@include vendor('flex', '0 0 100% !important');
   				max-width: 100% !important;
 				width: 100% !important;
