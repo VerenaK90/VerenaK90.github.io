@@ -14,7 +14,7 @@ image: assets/images/Publications.png
 
 <!-- Content -->
 <dd>
-	<p><b>Körber, V.</b>b> §, Jakobsen N.A., Ansari-Pour, N., Moore, R., Claudino, N., Metzner, M., Thielecke, E., Hörsch, F., Usukhbayar, B., Angulo Salazar, M., Newman, S., Kendrick, B.J.L., et al. “Detecting and quantifying clonal selection in somatic stem cells.” <i>Nature Genetics</i>, 1-12 (2025).</p>
+	<p><b>Körber, V.</b> §, Jakobsen N.A., Ansari-Pour, N., Moore, R., Claudino, N., Metzner, M., Thielecke, E., Hörsch, F., Usukhbayar, B., Angulo Salazar, M., Newman, S., Kendrick, B.J.L., et al. “Detecting and quantifying clonal selection in somatic stem cells.” <i>Nature Genetics</i>, 1-12 (2025).</p>
 	<p>Okonechnikov, K.*, Joshi, P.*, <b>Körber, V.*</b>b>, Rademacher, A., Bortolomeazzi, M., Mallm, J.-P., Vaillant, J., Benites Goncalves da Silva, P., Statz, B., Sepp, M., Sarropoulos, I., Yamada, T., et al. „Oncogene aberrations drive medulloblastoma progression, not initiation.“ <i>Nature</i>, 1-11 (2025).</p>
 	<p>Scherer, M.*, Singh, I.*, Braun, M.M.*, Szu-Tu, C.*,†, Sanchez Sanchez, P., Lindenhofer, D., Jakobsen, N.A., <b>Körber, V.</b>b>, Kardorff, M., Nitsch, L., Kautz, P., Rühle, J., et al., Rodriguez-Fraticelli, A.§, Velten, L.§ "Clonal tracing with somatic epimutations reveals dynamics of blood ageing." <i>Nature</i>i> (2025).</p>
 	<p>Smirnov, P.*, Przybilla, M.J.*, Simovic-Lorenz, M.*, Parra, R.G.*, Susak, H.*, Ratnaparkhe, M., Wong, J.K.L., <b>Körber, V.</b>, Mallm, J.-P., Philippos, G., Sill, M., Kolb, T. et al. “Multi-omic and single-cell profiling of chromothriptic medulloblastoma reveals genomic and transcriptomic consequences of genome instability.” <i>Nature Communications</i> 15, 10183 (2024).</p>
