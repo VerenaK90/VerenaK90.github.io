@@ -35,8 +35,8 @@
 			overflow: hidden;
 			position: relative;
 			width: auto !important;
-			@include vendor('flex', '0 0 50%');
-			max-width: 50%;
+			@include vendor('flex', '0 0 50% !important');
+			max-width: 50% !important;
 
 			.image {
 				display: none;
@@ -147,9 +147,9 @@
 				}
 			}
 			/* If the total number of tiles is odd, make the LAST one full-width */
-			&last-child:nth-child(odd) {
- 				 @include vendor('flex', '0 0 100%');
-  				max-width: 100%;
+			&:last-child:nth-child(odd) {
+ 				 @include vendor('flex', '0 0 100% !important');
+  				max-width: 100% !important;
 			}
 		}
 
@@ -159,12 +159,16 @@
 				height: 30vh;
 				max-height: 30em;
 				min-height: 20em;
+				@include vendor('flex', '0 0 50% !important');
+    			max-width: 50% !important;
 			}
 		}
 
 		@include breakpoint(medium) {
 			article {
-				width: 50% !important;
+				width: auto !important;
+				@include vendor('flex', '0 0 50% !imortant');
+    			max-width: 50% !imoportant;
 			}
 		}
 
@@ -178,8 +182,8 @@
 				h3 {
 					font-size: 1.5em;
 				}
-				@include vendor('flex', '0 0 100%');
-    			max-width: 100%;
+				@include vendor('flex', '0 0 100% !important');
+    			max-width: 100% !important;
 			}
 		}
 
