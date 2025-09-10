@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Publications
 nav-menu: true
 image: assets/images/Publications.png
