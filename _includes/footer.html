@@ -2,12 +2,6 @@
 <section id="contact">
 	<div class="inner">
 		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-				</div>
-			</section>
 			{% if site.phone %}
 			{{<section>
 				<div class="contact-method">
@@ -18,8 +12,11 @@
 			{% endif %}
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
+					<!span class="icon alt fa-home"></span>
 					<span>
+					{% if site.name %}
+					    {{ site.name }}<br />
+					{% endif %}
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
 					{% endif %}
@@ -36,6 +33,12 @@
 					    {{ site.country }}
 					{% endif %}
 					</span>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<!span class="icon alt fa-envelope"></span>
+					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
 		</section>
