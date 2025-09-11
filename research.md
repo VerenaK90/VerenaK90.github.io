@@ -24,10 +24,8 @@ nav-menu: true
 		<p>
 			Our research uses the continuous accumulation of somatic variants as molecular barcodes. We combine next generation sequencing at bulk and single cell resolution with the development of novel mathematical models of division and differentiation dynamics along stem and progenitor cell hierarchies. These models use fundamental principles from population genetics to identify characteristic footprints of genetic drift and clonal selection in the cumulative distribution of somatic variant allele frequencies (Figure 1). We use these tools to quantify tissue renewal in the aging human blood (<i>Körber et al., Nature Genetics, 2025</i>), and during the development of leukemia, brain cancer (<i>Körber et al., Cancer Cell, 2019; Okonechnikov, Joshi & Körber et al., Nature, 2025</i>) and neuroblastoma (<i>Körber et al., Nature Genetics, 2023</i>). In a complementary line of research, we generate single-cell multiome data from primary human tissue to generate mechanistic hypotheses on the molecular regulation of division and differentiation decisions in health and disease. We test these hypotheses experimentally in appropriate in vitro and in vivo models. Our research is driven by interdisciplinary teams with expertise in biology, medicine, mathematics, physics and data science.		</p>
 	</div>
-		<a href="generic.html" class="image">
+		<figure>
 			<--img src="{% link assets/images/SCIFER.png %}" alt="" data-position="center center" /-->
 			<figcaption>Fig.1 - Quantifying stem cell division and differentiation dynamics from whole genome sequencing data using mathematical modeling.</figcaption>		
-		</a>
+		</figure>
 </section>
-
-
