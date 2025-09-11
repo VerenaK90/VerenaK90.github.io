@@ -21,7 +21,7 @@ image: assets/images/Software.png
 <section id="two">
 	<div class="inner">
 		<header class="major">
-			<h1>&Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma; (LACHESIS)</h1>
+			<h3>&Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma; (LACHESIS)</h3>
 		</header>
 
 <!-- Content -->
@@ -42,7 +42,7 @@ image: assets/images/Software.png
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h1>SCIFER</h1>
+			<h3>SCIFER</h3>
 		</header>
 
 <!-- Content -->
