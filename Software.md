@@ -12,6 +12,15 @@ image: assets/images/Software.png
 <section id="one">
 	<div class="inner">
 		<header class="major">
+			<h1>Software</h1>
+		</header>
+
+<!-- Content -->
+
+<!-- Two -->
+<section id="two">
+	<div class="inner">
+		<header class="major">
 			<h1>&Lambda;&Alpha;&Xi;&Sigma;&Epsilon;&Iota;&Sigma; (LACHESIS)</h1>
 		</header>
 
@@ -29,8 +38,8 @@ image: assets/images/Software.png
 
 </section>
 
-<!-- Two -->
-<section id="two">
+<!-- Three -->
+<section id="three">
 	<div class="inner">
 		<header class="major">
 			<h1>SCIFER</h1>
