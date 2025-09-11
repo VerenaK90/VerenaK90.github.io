@@ -6,7 +6,7 @@ nav-menu: true
 ---
 
 <!-- Main -->
-<div id="main" class="inner">
+<div id="main" class="alt">
 
 
 <!-- One -->
@@ -21,7 +21,7 @@ nav-menu: true
 </section>
 
 <!-- Two -->
-<section id="two" class="spotlights">
+<section id="two" class="inner">
 	<section>
 		<a href="generic.html" class="image">
 			<!--img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" /-->
