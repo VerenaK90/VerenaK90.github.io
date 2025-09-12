@@ -133,28 +133,10 @@
 			max-height: none;
 			min-height: 0;
 			top: -2.75em;
-/* -- HARD OVERRIDE for banner text on small screens -- */
-/* 1) neutralize any parent scaling inside the banner */
-& { font-size: 1rem !important; }
 
-/* 2) force the visible text size, regardless of its exact tag */
-& .inner .content, 
-& .inner .content * {
-  font-size: 0.95rem !important;
-  letter-spacing: normal !important;
-  font-weight: 400 !important;
-  line-height: 1.45 !important;
-}
-
-/* (Optional) if the text actually lives in the header on your page: */
-& .inner header, 
-& .inner header * {
-  font-size: 0.95rem !important;
-  letter-spacing: normal !important;
-  font-weight: 400 !important;
-  line-height: 1.45 !important;
-}
-
+			p {
+					font-size: 0.7rem !important;
+				}
 
 			h1 {
 				font-size: 2em;
@@ -196,6 +178,7 @@
 			}
 		}
 	}
+
 
 
 
