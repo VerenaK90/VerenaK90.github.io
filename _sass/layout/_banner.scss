@@ -133,7 +133,13 @@
 			max-height: none;
 			min-height: 0;
 			top: -2.75em;
-			font-size: 1rem !important;
+			& { font-size: 1rem !important; }  /* neutralize parent scaling */
+		  & .inner .content p {               /* directly size the banner text */
+		    font-size: 0.95rem !important;
+		    letter-spacing: normal !important;
+		    font-weight: 400 !important;
+		    line-height: 1.45;
+		  }
 
 
 			h1 {
@@ -143,7 +149,6 @@
 			> .inner {
 				.content {
 					display: block;
-					font-size: 0.95rem !important;
 
 					> * {
 						margin-left: 0;
@@ -177,6 +182,7 @@
 			}
 		}
 	}
+
 
 
 
