@@ -169,3 +169,17 @@
 			}
 		}
 	}
+
+/* No-JS fallback: open the panel when its hash is targeted (href="#menu") */
+#menu:target {
+  @include vendor('pointer-events', 'auto');
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+#menu:target .inner {
+  @include vendor('transform', 'none');
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
