@@ -133,13 +133,27 @@
 			max-height: none;
 			min-height: 0;
 			top: -2.75em;
-			& { font-size: 1rem !important; }  /* neutralize parent scaling */
-		  & .inner .content p {               /* directly size the banner text */
-		    font-size: 0.95rem !important;
-		    letter-spacing: normal !important;
-		    font-weight: 400 !important;
-		    line-height: 1.45;
-		  }
+/* -- HARD OVERRIDE for banner text on small screens -- */
+/* 1) neutralize any parent scaling inside the banner */
+& { font-size: 1rem !important; }
+
+/* 2) force the visible text size, regardless of its exact tag */
+& .inner .content, 
+& .inner .content * {
+  font-size: 0.95rem !important;
+  letter-spacing: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
+
+/* (Optional) if the text actually lives in the header on your page: */
+& .inner header, 
+& .inner header * {
+  font-size: 0.95rem !important;
+  letter-spacing: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+}
 
 
 			h1 {
@@ -182,6 +196,7 @@
 			}
 		}
 	}
+
 
 
 
