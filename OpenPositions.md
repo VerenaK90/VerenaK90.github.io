@@ -25,7 +25,7 @@ image: assets/images/OpenPositions.png
 	<p>Please apply via <a href="https://www.cancer.ox.ac.uk/study"></a></p>
 	<dt>Bachelor/Master students and internships</dt>
 			<p>We are always interested in Bachelor students, Master students and interns from biology, computer sciences, mathematics, physics or similar. Please reach out to Verena, explaining in a brief email why you are interested in joining our group and what you would like to do.</p>
-		/*<p>We currently do not have any open positions. However, we are always interested in Bachelor students, Master students and interns from biology, computer sciences, mathematics, physics or similar. Please reach out to Verena, explaining in a brief email why you are interested in joining our group and what you would like to do.</p>*/
+		<!--<p>We currently do not have any open positions. However, we are always interested in Bachelor students, Master students and interns from biology, computer sciences, mathematics, physics or similar. Please reach out to Verena, explaining in a brief email why you are interested in joining our group and what you would like to do.</p>-->
 	</dd>
 </dl>
 
