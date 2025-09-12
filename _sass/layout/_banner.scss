@@ -134,9 +134,10 @@
 			min-height: 0;
 			top: -2.75em;
 
-			p {
+			& .inner .content p {
 					font-size: 0.7rem !important;
-				}
+			}
+
 
 			h1 {
 				font-size: 2em;
@@ -178,6 +179,7 @@
 			}
 		}
 	}
+
 
 
 
