@@ -9,20 +9,33 @@ image: assets/images/Publications.png
 <section id="one">
 	<div class="inner">
   		<header class="major">
+			<h2>2026</h2>
+		</header>
+
+<!-- Content -->
+<dd>
+	<p><b>Kamimae-Lanning, A.N.*, Brown, J.M.*, Günther, M., Esau, F., Russell, H., Larcher, L., Langevin, F., Isobe, T., Wilson, N.K., Dingler, F.A., Cordell, R.L., Wanget, M. al. “Metabolite-induced DNA damage drives stochastic stem cell loss and clonal hematopoiesis.” <i>Cell Stem Cell</i> 33, P642-659 (2026).</p>
+	<p>Turkalj, S.*, Stoilova, B.*, Groom, A.J.*, Radtke, F.A.*, Mecklenbrauck, R.*, Jakobsen, N.A., Lachowiez, C.A., Metzner, M., Usukhbayar, B., Angulo Salazar, M., Zeng, Z., Loghavi, S. et al. "Rapid clonal selection within early hematopoietic cell compartments presages the outcome of ivosidenib combination therapy." <i>Blood</i> 147(6), 613-632 (2026).</p>
+</dd>
+
+<!-- Two -->
+<section id="Two">
+	<div class="inner">
+  		<header class="major">
 			<h2>2024-2025</h2>
 		</header>
 
 <!-- Content -->
 <dd>
-	<p><b>Körber, V.</b> §, Jakobsen N.A., Ansari-Pour, N., Moore, R., Claudino, N., Metzner, M., Thielecke, E., Hörsch, F., Usukhbayar, B., Angulo Salazar, M., Newman, S., Kendrick, B.J.L., et al. “Detecting and quantifying clonal selection in somatic stem cells.” <i>Nature Genetics</i>, 1-12 (2025).</p>
-	<p>Okonechnikov, K.*, Joshi, P.*, <b>Körber, V.*</b>, Rademacher, A., Bortolomeazzi, M., Mallm, J.-P., Vaillant, J., Benites Goncalves da Silva, P., Statz, B., Sepp, M., Sarropoulos, I., Yamada, T., et al. „Oncogene aberrations drive medulloblastoma progression, not initiation.“ <i>Nature</i>, 1-11 (2025).</p>
-	<p>Scherer, M.*, Singh, I.*, Braun, M.M.*, Szu-Tu, C.*,†, Sanchez Sanchez, P., Lindenhofer, D., Jakobsen, N.A., <b>Körber, V.</b>, Kardorff, M., Nitsch, L., Kautz, P., Rühle, J., et al., Rodriguez-Fraticelli, A.§, Velten, L.§ "Clonal tracing with somatic epimutations reveals dynamics of blood ageing." <i>Nature</i>i> (2025).</p>
+	<p><b>Körber, V.</b> §, Jakobsen N.A., Ansari-Pour, N., Moore, R., Claudino, N., Metzner, M., Thielecke, E., Hörsch, F., Usukhbayar, B., Angulo Salazar, M., Newman, S., Kendrick, B.J.L., et al. “Detecting and quantifying clonal selection in somatic stem cells.” <i>Nature Genetics</i> 57, 1718-1729 (2025).</p>
+	<p>Okonechnikov, K.*, Joshi, P.*, <b>Körber, V.*</b>, Rademacher, A., Bortolomeazzi, M., Mallm, J.-P., Vaillant, J., Benites Goncalves da Silva, P., Statz, B., Sepp, M., Sarropoulos, I., Yamada, T., et al. „Oncogene aberrations drive medulloblastoma progression, not initiation.“ <i>Nature</i> 642, 1062-1072 (2025).</p>
+	<p>Scherer, M.*, Singh, I.*, Braun, M.M.*, Szu-Tu, C.*,†, Sanchez Sanchez, P., Lindenhofer, D., Jakobsen, N.A., <b>Körber, V.</b>, Kardorff, M., Nitsch, L., Kautz, P., Rühle, J., et al., Rodriguez-Fraticelli, A.§, Velten, L.§ "Clonal tracing with somatic epimutations reveals dynamics of blood ageing." <i>Nature</i> 643, 478-487 (2025).</p>
 	<p>Smirnov, P.*, Przybilla, M.J.*, Simovic-Lorenz, M.*, Parra, R.G.*, Susak, H.*, Ratnaparkhe, M., Wong, J.K.L., <b>Körber, V.</b>, Mallm, J.-P., Philippos, G., Sill, M., Kolb, T. et al. “Multi-omic and single-cell profiling of chromothriptic medulloblastoma reveals genomic and transcriptomic consequences of genome instability.” <i>Nature Communications</i> 15, 10183 (2024).</p>
 	<p>Kats, I.*, Simovic-Lorenz, M.*, Schreiber, H.S.*, Sant, P., Mallm, J.-P., <b>Körber, V.</b>, Li, A., Velmurugan, P., Heuer, S., Kües, L., Devens, F., Sill, M., et al. “Spatio-temporal transcriptomics of chromothriptic SHH-medulloblastoma identifies multiple genetic clones that resist treatment and drive relapse.” <i>Nature Communications</i> 15, 1- 19 (2024).</p>
 </dd>
 
-<!-- Two -->
-<section id="two">
+<!-- Three -->
+<section id="Three">
 	<div class="inner">
   		<header class="major">
 			<h2>2019-2023</h2>
@@ -40,15 +53,14 @@ image: assets/images/Publications.png
 
    
 
-<!-- Two -->
-<section id="three">
+<!-- Four -->
+<section id="Four">
 	<div class="inner">
   		<header class="major">
 			<h2>Preprints</h2>
    		</header>
 <!-- Content -->
 <dd>
-	<p>Turkalj, S.*, Stoilova, B.*, Groom, A.J.*, Radtke, F.A.*, Mecklenbrauck, R.*, Jakobsen, N.A., Lachowiez, C.A., Metzner, M., Usukhbayar, B., Angulo Salazar, M., Zeng, Z., Loghavi, S. et al. "Rapid clonal selection within early hematopoietic cell compartments presages outcome to ivosidenib combination therapy." Preprint at <i>BioRxiv</i>, doi: https://doi.org/10.1101/2024.12.30.630700 (2025).</p>
 	<p>Di Muzio, G.*, Benedetto, S.*, Wang, L.-C., Weber, L., van der Hoeven, F., Armstrong, B., Lu, H.-J., Berlanda, J., <b>Körber, V.</b>, Claudino, N., Krogemann, M., Höfer, T.§ & Wei, P.-C.§. "Adaptive Clonal Expansion Shapes Brain Development." Preprint at <i>BioRxiv</i>, doi: https://doi.org/10.1101/2025.03.04.641452 (2025).</p>
 </dd>
 
