@@ -14,7 +14,7 @@ image: assets/images/Publications.png
 
 <!-- Content -->
 <dd>
-	<p><b>Kamimae-Lanning, A.N.*, Brown, J.M.*, Günther, M., Esau, F., Russell, H., Larcher, L., Langevin, F., Isobe, T., Wilson, N.K., Dingler, F.A., Cordell, R.L., Wanget, M. al. “Metabolite-induced DNA damage drives stochastic stem cell loss and clonal hematopoiesis.” <i>Cell Stem Cell</i> 33, P642-659 (2026).</p>
+	<p>Kamimae-Lanning, A.N.*, Brown, J.M.*, Günther, M., Esau, F., Russell, H., Larcher, L., Langevin, F., Isobe, T., Wilson, N.K., Dingler, F.A., Cordell, R.L., Wanget, M. al. “Metabolite-induced DNA damage drives stochastic stem cell loss and clonal hematopoiesis.” <i>Cell Stem Cell</i> 33, P642-659 (2026).</p>
 	<p>Turkalj, S.*, Stoilova, B.*, Groom, A.J.*, Radtke, F.A.*, Mecklenbrauck, R.*, Jakobsen, N.A., Lachowiez, C.A., Metzner, M., Usukhbayar, B., Angulo Salazar, M., Zeng, Z., Loghavi, S. et al. "Rapid clonal selection within early hematopoietic cell compartments presages the outcome of ivosidenib combination therapy." <i>Blood</i> 147(6), 613-632 (2026).</p>
 </dd>
 
