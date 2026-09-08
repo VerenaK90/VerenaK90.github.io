@@ -59,6 +59,22 @@ image: assets/images/People.png
 <section id="four">
 <div class="inner">
 <header class="major">
+<h2>Medical students</h2>
+</header>
+
+<dl>
+<dt>Pauline Wittermann</dt>
+<dd>
+  <p><a href="mailto:pauline.wittermann@rdm.ox.ac.uk">Email</a></p>
+</dd>
+</dl>
+</div>
+</section>
+
+<!-- Five -->
+<section id="four">
+<div class="inner">
+<header class="major">
 <h2>Interns</h2>
 </header>
 
@@ -71,7 +87,7 @@ image: assets/images/People.png
 </div>
 </section>
 
-<!-- Five -->
+<!-- Six -->
 <section id="five">
 <div class="inner">
 <header class="major">
