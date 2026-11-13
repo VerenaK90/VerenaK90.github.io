@@ -1,0 +1,16 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/bundle/
+.bundle/
+
+# Content-handover working material — delivered assets have been copied
+# into assets/images/ and _data/; these source dumps stay local, not in git.
+/files/
+/files2/
+/files.zip
+/files2.zip
+/DSC00009.jpeg
+/Photo_VK.png
+/Gemini_Generated_Image_*.jpeg

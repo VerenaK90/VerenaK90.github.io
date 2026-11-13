@@ -1,26 +1,31 @@
-<!-- Wrapper -->
-<div id="wrapper">
-
-<!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | relative_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="{{ "/" | relative_url }}">
+      <img class="site-header__mark" src="{{ "/assets/images/logo-mark.png" | relative_url }}" alt="" width="32" height="30">
+      <span>{{ site.title }}</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="{{ "/research/" | relative_url }}"{% if page.nav_key == "research" %} aria-current="page"{% endif %}>Research</a></li>
+        <li><a href="{{ "/publications/" | relative_url }}"{% if page.nav_key == "publications" %} aria-current="page"{% endif %}>Publications</a></li>
+        <li><a href="{{ "/software/" | relative_url }}"{% if page.nav_key == "software" %} aria-current="page"{% endif %}>Software</a></li>
+        <li><a href="{{ "/team/" | relative_url }}"{% if page.nav_key == "team" %} aria-current="page"{% endif %}>Team</a></li>
+        <li><a href="{{ "/news/" | relative_url }}"{% if page.nav_key == "news" %} aria-current="page"{% endif %}>News</a></li>
+        <li><a href="{{ "/join-us/" | relative_url }}"{% if page.nav_key == "join-us" %} aria-current="page"{% endif %}>Join us</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
-
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | relative_url }}/">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
-	</ul>
-</nav>
+<script>
+(function () {
+  var toggle = document.getElementById("nav-toggle");
+  var nav = document.getElementById("site-nav");
+  if (!toggle || !nav) return;
+  toggle.addEventListener("click", function () {
+    var open = nav.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+})();
+</script>

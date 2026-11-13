@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
-landing-title: 'Somatic evolution research group'
-description: null
-image: null
-author: null
-show_tile: false
+permalink: /
 ---
 
-tbd.
+<!-- DRAFT: this positioning statement was drafted during the redesign from
+     facts already on the old site (papers, software, methods). It is not
+     the IMM profile paragraph, as required — but Verena should read it,
+     correct anything imprecise, and make it her own before this goes live. -->
+Our group asks how individual stem cells divide, differentiate and compete for dominance as human tissues age — and how that same competition, once hijacked, drives malignant transformation. We combine mathematical models of clonal dynamics with multi-omic sequencing of primary human tissue and functional validation in vitro and in vivo. Recent work from the group traces how selection shapes the blood system over a lifetime and identifies the earliest steps of transformation in leukaemia and paediatric brain tumours. Our own methods, LACHESIS and SCIFER, make these dynamics measurable directly from sequencing data.

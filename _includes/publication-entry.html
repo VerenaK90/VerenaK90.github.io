@@ -1,0 +1,18 @@
+<article class="pub-entry">
+  <h3 class="pub-entry__title">
+    {% assign pub = include.publication %}
+    {% if pub.doi and pub.doi != "TODO" %}<a href="https://doi.org/{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+  </h3>
+  <p class="pub-entry__authors">
+    {% assign parts = pub.authors | split: "**" %}
+    {% if parts.size == 3 %}{{ parts[0] }}<strong>{{ parts[1] }}</strong>{% if pub.shared_first %}*{% endif %}{% if pub.corresponding %}&#8224;{% endif %}{{ parts[2] }}{% else %}{{ pub.authors }}{% endif %}
+  </p>
+  <p class="pub-entry__meta">{{ pub.journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %} ({{ pub.year }})</p>
+  {% if pub.code or pub.data or pub.preprint %}
+  <p class="pub-entry__links">
+    {% if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}
+    {% if pub.data %}<a href="{{ pub.data }}">Data</a>{% endif %}
+    {% if pub.preprint %}<a href="{{ pub.preprint }}">Preprint</a>{% endif %}
+  </p>
+  {% endif %}
+</article>
