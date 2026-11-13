@@ -5,7 +5,10 @@
   </h3>
   <p class="pub-entry__authors">
     {% assign parts = pub.authors | split: "**" %}
-    {% if parts.size == 3 %}{{ parts[0] }}<strong>{{ parts[1] }}</strong>{% if pub.shared_first %}*{% endif %}{% if pub.corresponding %}&#8224;{% endif %}{{ parts[2] }}{% else %}{{ pub.authors }}{% endif %}
+    {% comment %} Ruby's String#split drops a trailing empty element, so a
+    name right at the end of the string (nothing after the closing **)
+    yields 2 parts, not 3 — check for at least 2 rather than exactly 3. {% endcomment %}
+    {% if parts.size > 1 %}{{ parts[0] }}<strong>{{ parts[1] }}</strong>{% if pub.shared_first %}*{% endif %}{% if pub.corresponding %}&#8224;{% endif %}{{ parts[2] }}{% else %}{{ pub.authors }}{% endif %}
   </p>
   <p class="pub-entry__meta">{{ pub.journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %} ({{ pub.year }})</p>
   {% if pub.code or pub.data or pub.preprint %}

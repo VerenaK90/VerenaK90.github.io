@@ -24,6 +24,10 @@ country: United Kingdom
 # and social fields are left out deliberately (no social widgets, see brief).
 logo: assets/images/favicon.png
 
+# Jekyll defaults to the "minima" theme when none is set. The brief rules
+# out any remote theme or CSS framework, so it's disabled explicitly.
+theme: null
+
 permalink: /:title/
 
 markdown: kramdown
@@ -35,6 +39,10 @@ plugins:
   - jekyll-redirect-from
 
 exclude:
+  # Setting this key replaces Jekyll's own default exclude list rather
+  # than adding to it, so the usual defaults are repeated here.
+  - vendor/
+  - node_modules/
   - REDESIGN_BRIEF.md
   - EDITING.md
   - "*.gemspec"

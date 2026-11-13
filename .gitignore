@@ -4,6 +4,16 @@ _site/
 .jekyll-metadata
 vendor/bundle/
 .bundle/
+/.gem-local/
+
+# Gemfile.lock is deliberately not committed: GitHub Pages resolves the
+# github-pages gem's own locked versions at build time, and a committed
+# lockfile pinned against a local Ruby easily drifts from that and breaks
+# the Pages build.
+/Gemfile.lock
+
+# Local-machine preview tooling (hardcoded Homebrew path), not portable.
+/.claude/
 
 # Content-handover working material — delivered assets have been copied
 # into assets/images/ and _data/; these source dumps stay local, not in git.
