@@ -1,0 +1,223 @@
+# Publications — one entry per paper, any order (the page sorts by year).
+#
+# To add a new paper, copy an existing entry below (the lines starting
+# with "- title:") and fill in the fields. Leave a field blank or write
+# TODO if you don't have the information yet — never guess a DOI or page
+# number. To mark Verena as an author, write her name as **Körber, V.**
+# (two asterisks on each side) at the point she appears in the author
+# list; the site bolds it automatically. Fields:
+#
+#   title          paper title, plain text
+#   authors        full author string, plain text, **Körber, V.** marks her
+#   journal        journal name
+#   year           publication year
+#   volume         journal volume (leave blank if not applicable)
+#   pages          page range or article number
+#   doi            DOI, without the "https://doi.org/" prefix
+#   pmid           PubMed ID, if known
+#   code           optional: URL to the code for this specific paper
+#   data           optional: URL to the data for this specific paper
+#   preprint       optional: URL to a preprint version
+#   shared_first:  true if Verena shares first authorship on this paper
+#   corresponding: true if Verena is a (shared) corresponding author
+#   highlight:     true to show this paper on the home page (keep this to three)
+
+- title: "LACHESIS: real-time inference of evolutionary trajectories of malignant transformation from whole-genome sequencing data"
+  authors: "Eggle, M., Mayakonda, A., Bartenhagen, C., Höfer, T., Westermann, F. & **Körber, V.**"
+  journal: bioRxiv
+  year: 2026
+  volume:
+  pages:
+  doi: TODO
+  pmid: TODO
+  preprint: https://doi.org/10.1101/2026.07.24.740074
+  code: https://github.com/VerenaK90/LACHESIS
+  shared_first: false
+  corresponding: false   # TODO: set true if Verena is corresponding author
+  highlight: false
+
+# TODO: the author list as delivered truncates before reaching Verena's
+# name ("... Wang, M. et al."). The old site rendered this as "Wanget, M.
+# al." — garbled. Verify the full author string against the journal and
+# confirm where Verena appears before marking her name.
+- title: "Metabolite-induced DNA damage drives stochastic stem cell loss and clonal hematopoiesis"
+  authors: "Kamimae-Lanning, A.N.*, Brown, J.M.*, Günther, M., Esau, F., Russell, H., Larcher, L., Langevin, F., Isobe, T., Wilson, N.K., Dingler, F.A., Cordell, R.L., Wang, M. et al."
+  journal: Cell Stem Cell
+  year: 2026
+  volume: 33
+  pages: 642-659
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Rapid clonal selection within early hematopoietic cell compartments presages the outcome of ivosidenib combination therapy"
+  authors: "Turkalj, S.*, Stoilova, B.*, Groom, A.J.*, Radtke, F.A.*, Mecklenbrauck, R.*, Jakobsen, N.A., Lachowiez, C.A., Metzner, M., Usukhbayar, B., Angulo Salazar, M., Zeng, Z., Loghavi, S. et al."
+  journal: Blood
+  year: 2026
+  volume: "147(6)"
+  pages: 613-632
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Detecting and quantifying clonal selection in somatic stem cells"
+  authors: "**Körber, V.**, Jakobsen, N.A., Ansari-Pour, N., Moore, R., Claudino, N., Metzner, M., Thielecke, E., Hörsch, F., Usukhbayar, B., Angulo Salazar, M., Newman, S., Kendrick, B.J.L. et al."
+  journal: Nature Genetics
+  year: 2025
+  volume: 57
+  pages: 1718-1729
+  doi: "10.1038/s41588-025-02217-y"
+  pmid: TODO
+  code: https://github.com/VerenaK90/SCIFER
+  shared_first: false
+  corresponding: true
+  highlight: true
+
+- title: "Oncogene aberrations drive medulloblastoma progression, not initiation"
+  authors: "Okonechnikov, K.*, Joshi, P.*, **Körber, V.**, Rademacher, A., Bortolomeazzi, M., Mallm, J.-P., Vaillant, J., Benites Goncalves da Silva, P., Statz, B., Sepp, M., Sarropoulos, I., Yamada, T. et al."
+  journal: Nature
+  year: 2025
+  volume: 642
+  pages: 1062-1072
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: true
+
+- title: "Clonal tracing with somatic epimutations reveals dynamics of blood ageing"
+  authors: "Scherer, M.*, Singh, I.*, Braun, M.M.*, Szu-Tu, C.*, Sanchez Sanchez, P., Lindenhofer, D., Jakobsen, N.A., **Körber, V.**, Kardorff, M., Nitsch, L., Kautz, P., Rühle, J. et al."
+  journal: Nature
+  year: 2025
+  volume: 643
+  pages: 478-487
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Multi-omic and single-cell profiling of chromothriptic medulloblastoma reveals genomic and transcriptomic consequences of genome instability"
+  authors: "Smirnov, P.*, Przybilla, M.J.*, Simovic-Lorenz, M.*, Parra, R.G.*, Susak, H.*, Ratnaparkhe, M., Wong, J.K.L., **Körber, V.**, Mallm, J.-P., Philippos, G., Sill, M., Kolb, T. et al."
+  journal: Nature Communications
+  year: 2024
+  volume: 15
+  pages: "10183"
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Spatio-temporal transcriptomics of chromothriptic SHH-medulloblastoma identifies multiple genetic clones that resist treatment and drive relapse"
+  authors: "Kats, I.*, Simovic-Lorenz, M.*, Schreiber, H.S.*, Sant, P., Mallm, J.-P., **Körber, V.**, Li, A., Velmurugan, P., Heuer, S., Kües, L., Devens, F., Sill, M. et al."
+  journal: Nature Communications
+  year: 2024
+  volume: 15
+  pages: 1-19
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Neuroblastoma arises in early fetal development and its evolutionary duration predicts outcome"
+  authors: "**Körber, V.**, Stainczyk, S.A., Kurilov, R., Henrich, K.-O., Hero, B., Brors, B., Westermann, F. & Höfer, T."
+  journal: Nature Genetics
+  year: 2023
+  volume: 55
+  pages: 619-630
+  doi: TODO
+  pmid: TODO
+  shared_first: false
+  corresponding: false
+  highlight: true
+
+- title: "COGNITION: A prospective precision oncology trial for early breast cancer patients at high risk following neoadjuvant treatment"
+  authors: "Pixberg, C.*, Schulze, M.*, Hlevnjak, M.*, Benedetto, S., Suppelna, J.P., Heil, J., Smetanay, K., Michel, L., Fremd, C., **Körber, V.**, Rübsam, M., Buschhorn, L. et al."
+  journal: ESMO Open
+  year: 2022
+  volume:
+  pages: TODO
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Single-cell transcriptomic analyses provide insights into the developmental origins of neuroblastoma"
+  authors: "Jansky, S., Sharma, A.K., **Körber, V.**, Quintero, A., Toprak, U.H., Wecht, E.M., Gartlgruber, M., Greco, A., Chomsky, E., Grünewald, T.G.P., Henrich, K.-O., Tanay, A. et al."
+  journal: Nature Genetics
+  year: 2021
+  volume: 53
+  pages: 683-693
+  doi: TODO
+  pmid: TODO
+  shared_first: false
+  corresponding: false
+  highlight: false
+
+- title: "Carbon ion radiotherapy eradicates medulloblastomas with chromothripsis in an orthotopic Li-Fraumeni patient-derived mouse model"
+  authors: "Simovic, M., Bolkestein, M., Moustafa, M., Wong, J.K.L., **Körber, V.**, Benedetto, S., Khalid, U., Schreiber, H.S., Jugold, M., Korshunov, A., Hübschmann, D., Mack, N. et al."
+  journal: Neuro-Oncology
+  year: 2021
+  volume: 23
+  pages: 2028-2041
+  doi: TODO
+  pmid: TODO
+  shared_first: false
+  corresponding: false
+  highlight: false
+
+- title: "Chromothripsis in human breast cancer"
+  authors: "Bolkestein, M.*, Wong, J.K.L.*, Thewes, V.*, **Körber, V.**, Hlevnjak, M., Elgaafary, S., Schulze, M., Kommoss, F.K.F., Sinn, H.-P., Anzeneder, T., Hirsch, S., Devens, F. et al."
+  journal: Cancer Research
+  year: 2020
+  volume: 80
+  pages: 4918-4931
+  doi: TODO
+  pmid: TODO
+  shared_first: true
+  corresponding: false
+  highlight: false
+
+- title: "Evolutionary trajectories of IDH-wildtype glioblastomas reveal a common path of early tumorigenesis instigated years ahead of initial diagnosis"
+  authors: "**Körber, V.**, Yang, J., Barah, P., Wu, Y., Stichel, D., Gu, Z., Fletcher, M.N.C., Jones, D., Hentschel, B., Lamszus, K., Tonn, J.C., Schackert, G. et al."
+  journal: Cancer Cell
+  year: 2019
+  volume: 35
+  pages: 692-704
+  doi: TODO
+  pmid: TODO
+  shared_first: false
+  corresponding: false
+  highlight: false
+
+- title: "Inferring growth and genetic evolution of tumors from genome sequences"
+  authors: "**Körber, V.** & Höfer, T."
+  journal: Current Opinion in Systems Biology
+  year: 2019
+  volume: 16
+  pages: 1-9
+  doi: TODO
+  pmid: TODO
+  shared_first: false
+  corresponding: false
+  highlight: false
+
+- title: "Adaptive clonal expansion shapes brain development"
+  authors: "Di Muzio, G.*, Benedetto, S.*, Wang, L.-C., Weber, L., van der Hoeven, F., Armstrong, B., Lu, H.-J., Berlanda, J., **Körber, V.**, Claudino, N., Krogemann, M., Höfer, T. & Wei, P.-C."
+  journal: bioRxiv
+  year: 2025
+  volume:
+  pages:
+  doi: TODO
+  pmid: TODO
+  preprint: https://doi.org/10.1101/2025.03.04.641452
+  shared_first: true
+  corresponding: true
+  highlight: false

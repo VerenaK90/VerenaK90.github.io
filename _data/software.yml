@@ -1,0 +1,44 @@
+# Software — one entry per released package.
+#
+# To add a package, copy an existing entry below (the lines starting
+# with "- name:") and fill in the fields. Leave a field blank or write
+# TODO if you don't have the information yet.
+#
+#   name        package name
+#   logo        optional: filename in assets/images/
+#   description one sentence, plain text
+#   install     the install command exactly as a user would type it
+#   repo        URL to the source repository
+#   docs        optional: URL to documentation
+#   bioconductor/cran  optional: URL to the Bioconductor or CRAN listing
+#   preprint    optional: URL to a preprint describing the package
+#   paper_doi   DOI of the paper that introduces/cites this package
+
+- name: LACHESIS
+  logo: LACHESIS_logo.svg
+  description: >-
+    Infers the timing of tumour initiation from bulk whole-genome sequencing
+    data, using mutation densities at genomic segments to date the origin of
+    a tumour.
+  install: BiocManager::install("LACHESIS")
+  repo: https://github.com/VerenaK90/LACHESIS
+  docs: https://bioconductor.org/packages/LACHESIS/
+  preprint: https://doi.org/10.1101/2026.07.24.740074
+  paper_doi: ""   # TODO: fill in on journal publication
+
+- name: SCIFER
+  description: >-
+    Distinguishes clonal expansion driven by selection from neutral drift in
+    bulk-sequenced tissue, and quantifies when a selected clone arose and how
+    fast it grew — without single-cell phylogenies.
+  install: 'devtools::install_github("VerenaK90/SCIFER")'   # TODO: verify against the README
+  repo: https://github.com/VerenaK90/SCIFER
+  docs: TODO
+  paper_doi: "10.1038/s41588-025-02217-y"
+
+- name: Clonal_hematopoiesis
+  description: TODO
+  install: TODO
+  repo: https://github.com/VerenaK90/Clonal_hematopoiesis
+  docs: TODO
+  paper_doi: TODO

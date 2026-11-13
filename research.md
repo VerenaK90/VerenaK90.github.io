@@ -1,33 +1,99 @@
 ---
 layout: page
 title: Research
-image: assets/images/Research.png
-nav-menu: true
+nav_key: research
+wide: true
+permalink: /research/
+redirect_from:
+  - /research.html
 ---
 
-<!-- Main -->
-<div id="main" class="alt">
+<div class="prose">
+<p>Stem cells sustain tissue function via self-renewal and progressive
+differentiation into increasingly fate-restricted progenitor, precursor and
+mature cell types. We are interested in the dynamics of division and
+differentiation of stem and progenitor cells in human and how they become
+subverted in diseases such as cancer and as we age. Leveraging mathematical
+modelling and bioinformatic analysis of primary human tissue with functional
+experiments in vitro and in vivo, we aim to comprehensively understand how the
+dynamics and molecular regulation of these fundamental biological processes
+work. To this end, we collaborate closely with clinical and experimental
+partners.</p>
 
+<p>Our approach treats the continuous accumulation of somatic variants as a
+molecular barcode. We pair bulk and single-cell sequencing with models of
+division and differentiation along stem and progenitor hierarchies, built on
+population-genetic principles, which separate the footprints of genetic drift
+from those of clonal selection in the distribution of variant allele
+frequencies.</p>
+</div>
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Our research</h2>
-		</header>
-		<p>Stem cells sustain tissue function via self-renewal and progressive differentiation into increasingly fate-restricted progenitor, precursor and mature cell types. We are interested in the dynamics of division and differentiation of stem and progenitor cells in human and how they become subverted in diseases such as cancer and as we age. Leveraging mathematical modelling and bioinformatic analysis of primary human tissue with functional experiments in vitro and in vivo, we aim to comprehensively understand how the dynamics and molecular regulation of these fundamental biological processes. To this end, we collaborate closely with clinical and experimental partners. Our research chiefly aims to address the following questions:</p>
-		<ul>
-  			<b><li>How fast do human stem and progenitor cells divide and differentiate?</li></b>
-  			<b><li>When in life do tissues malignantly transform and how fast do malignant clones expand?</li></b>
-  			<b><li>How are normal and malignant division and differentiation decisions molecularly regulated?</li></b>
-		</ul>
-		<p>
-			Our research uses the continuous accumulation of somatic variants as molecular barcodes. We combine next generation sequencing at bulk and single cell resolution with the development of novel mathematical models of division and differentiation dynamics along stem and progenitor cell hierarchies. These models use fundamental principles from population genetics to identify characteristic footprints of genetic drift and clonal selection in the cumulative distribution of somatic variant allele frequencies (Figure 1). We use these tools to quantify tissue renewal in the aging human blood (<i>Körber et al., Nature Genetics, 2025</i>), and during the development of leukemia, brain cancer (<i>Körber et al., Cancer Cell, 2019; Okonechnikov, Joshi & Körber et al., Nature, 2025</i>) and neuroblastoma (<i>Körber et al., Nature Genetics, 2023</i>). In a complementary line of research, we generate single-cell multiome data from primary human tissue to generate mechanistic hypotheses on the molecular regulation of division and differentiation decisions in health and disease. We test these hypotheses experimentally in appropriate in vitro and in vivo models. Our research is driven by interdisciplinary teams with expertise in biology, medicine, mathematics, physics and data science.		</p>
-	</div>
-	<div style='text-align: center;'>
-		<figure>
-			<img src="{% link assets/images/SCIFER.png %}" alt="" data-position="center center" width="70%"/>
-			<figcaption>Figure 1 - Quantifying stem cell division and differentiation dynamics from whole genome sequencing data using mathematical modeling.</figcaption>		
-		</figure>
-	</div>
-</section>
+<div class="research-themes">
+
+  <article class="research-theme">
+    <div class="research-theme__sketch">
+      <!-- TODO: add assets/images/sketches/division-dynamics.svg or .png
+           (processed: background removed, single colour in --accent), then
+           add an img tag here pointing at it via the relative_url filter. -->
+    </div>
+    <div class="research-theme__text">
+      <h2>How fast do human stem and progenitor cells divide and differentiate?</h2>
+      <p>Division and differentiation rates are hard to measure directly in
+      humans, but they leave a signature in the mutations cells carry. We
+      infer those rates from bulk sequencing data, which makes the approach
+      cheap enough to apply across many individuals, and have used it to
+      quantify how the ageing human blood system renews itself (<em>Körber et
+      al., Nature Genetics, 2025</em>).</p>
+      <p class="research-theme__links">
+        <a href="{{ "/publications/" | relative_url }}">Publications</a>
+        <a href="{{ "/software/" | relative_url }}">Software</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="research-theme">
+    <div class="research-theme__sketch">
+      <!-- TODO: add assets/images/sketches/timing-transformation.svg or .png -->
+    </div>
+    <div class="research-theme__text">
+      <h2>When in life do tissues malignantly transform, and how fast do malignant clones expand?</h2>
+      <p>Tumours carry a record of their own history. By dating the genomic
+      events in that record we can ask when the first transforming event
+      occurred and how long the tumour took to become clinically apparent —
+      years to decades earlier than diagnosis in glioblastoma (<em>Körber et
+      al., Cancer Cell, 2019</em>), during fetal development in neuroblastoma
+      (<em>Körber et al., Nature Genetics, 2023</em>), and, in medulloblastoma,
+      with the oncogene aberrations arriving after initiation rather than
+      causing it (<em>Okonechnikov, Joshi &amp; Körber et al., Nature,
+      2025</em>).</p>
+      <p class="research-theme__links">
+        <a href="{{ "/publications/" | relative_url }}">Publications</a>
+        <a href="{{ "/software/" | relative_url }}">Software</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="research-theme">
+    <div class="research-theme__sketch">
+      <!-- TODO: add assets/images/sketches/molecular-regulation.svg or .png -->
+    </div>
+    <div class="research-theme__text">
+      <h2>How are normal and malignant division and differentiation decisions molecularly regulated?</h2>
+      <p>Quantifying the dynamics raises the question of what sets them. We
+      generate single-cell multiome data from primary human tissue to form
+      mechanistic hypotheses about the regulation of division and
+      differentiation decisions in health and disease, and test those
+      hypotheses in in vitro and in vivo models.</p>
+      <p class="research-theme__links">
+        <a href="{{ "/publications/" | relative_url }}">Publications</a>
+        <a href="{{ "/software/" | relative_url }}">Software</a>
+      </p>
+    </div>
+  </article>
+
+</div>
+
+<div class="prose">
+<p>Our work is carried out by interdisciplinary teams with backgrounds in
+biology, medicine, mathematics, physics and data science.</p>
+</div>

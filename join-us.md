@@ -1,36 +1,33 @@
 ---
 layout: page
-title: Open positions
-nav-menu: true
-image: assets/images/OpenPositions.png
+title: Join us
+nav_key: join-us
+permalink: /join-us/
+redirect_from:
+  - /OpenPositions.html
 ---
 
-<!-- Main -->
-<div id="main" class="alt">
+<figure class="group-photo">
+  <img src="{{ "/assets/images/team/group.jpg" | relative_url }}" alt="Members of the group at an informal gathering">
+  <figcaption>The group, outside the lab.</figcaption>
+</figure>
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>Open positions</h1>
-		</header>
+## Current openings
 
-<!-- Content -->
+### DPhil students
 
-<dl>
-	<dd>
-	<h3>DPhil students</h3>
-			<p>We are currently looking for computational and experimental DPhil students via <a href="https://www.cancer.ox.ac.uk/study">Oxford Cancer</a> and the <a href="https://www.rdm.ox.ac.uk/graduate-study/dphil-in-medical-sciences/dphil-projects">RDM studentship</a>.</p>
-	</dd>
-	<dd>
-	<h3>Bachelor/Master students and internships</h3>
-			<!--<p>We are always interested in Bachelor students, Master students and interns from biology, computer sciences, mathematics, physics or similar. Please reach out to Verena, explaining in a brief email why you are interested in joining our group and what you would like to do.</p>-->
-		<p>We currently do not have any open positions. However, we are always interested in Bachelor students, Master students and interns from biology, computer sciences, mathematics, physics or similar. Please reach out to Verena, explaining in a brief email why you are interested in joining our group and what you would like to do.</p>
-	</dd>
-</dl>
+We are currently looking for computational and experimental DPhil students via [Oxford Cancer](https://www.cancer.ox.ac.uk/study) and the [RDM studentship](https://www.rdm.ox.ac.uk/graduate-study/dphil-in-medical-sciences/dphil-projects) programme.
 
-</div>
+### Bachelor/Master students and internships
 
-</section>
+We currently do not have any open positions. However, we are always interested in Bachelor's students, Master's students and interns from biology, computer science, mathematics, physics or a related field.
 
-</div>
+## Approaching us speculatively
+
+We are always glad to hear from people whose interests overlap with ours, even when nothing is advertised. If you work at the interface of mathematics, genomics and cell biology — or want to — write to Verena with a short description of what you are curious about, what you have worked on, and a CV. Fellowship applications are a realistic route into the group, and we are happy to develop a proposal with you well ahead of a deadline.
+
+## What the group offers
+
+You will work on primary human data, with clinical collaborators, on questions that have a defined answer rather than an open-ended one. Members come from biology, medicine, mathematics, physics and data science; we expect people to learn the language of the neighbouring discipline rather than stay inside their own. Code is written to be released, and software from the group is published and maintained.
+
+<!-- TODO: Verena to confirm or rewrite this section — it is a strawman. -->

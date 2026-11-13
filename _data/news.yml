@@ -1,0 +1,32 @@
+# News — one entry per item, newest first.
+#
+# To add an item, copy an existing entry below (the lines starting with
+# "- date:") and fill in the fields.
+#
+#   date   YYYY-MM-DD
+#   text   one or two sentences, plain text
+#   link   optional URL
+#   image  optional: filename relative to assets/images/
+
+- date: 2026-11-01
+  text: >
+    Nora Benz rejoins the group as a research assistant after her internship.
+
+- date: 2026-08-01
+  text: >
+    Pub crawl in old Headington.
+  image: news/pub-crawl.jpeg
+
+- date: 2026-07-24
+  text: >
+    New preprint out, featuring LACHESIS: real-time inference of evolutionary
+    trajectories of malignant transformation from whole-genome sequencing data.
+    Eggle, M., Mayakonda, A., Bartenhagen, C., Höfer, T., Westermann, F. &
+    Körber, V., bioRxiv 2026.07.24.740074.
+  link: https://doi.org/10.1101/2026.07.24.740074
+  image: LACHESIS_logo.svg
+
+- date: 2026-05-01
+  text: >
+    Farewell to Odette Luber, our talented Master's student, who continues
+    her research at the German Cancer Research Center in Heidelberg.

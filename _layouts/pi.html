@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="page">
+  <div class="prose">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+
+    <h2>Funding</h2>
+    <table class="funding-table">
+      <thead>
+        <tr><th>Funder</th><th>Grant</th><th>Role</th><th>Term</th></tr>
+      </thead>
+      <tbody>
+      {% assign own_awards = site.data.funding | where: "own_award", true %}
+      {% for f in own_awards %}
+        <tr>
+          <td>{{ f.funder }}</td>
+          <td>{% if f.scheme %}<strong>{{ f.scheme }}</strong><br>{% endif %}{{ f.title }}</td>
+          <td>{{ f.role }}</td>
+          <td>{{ f.term }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+
+    {% assign institutional = site.data.funding | where: "own_award", false %}
+    {% if institutional.size > 0 %}
+      <p class="funding-acknowledgement">
+        Also supported by:
+        {% for f in institutional %}{{ f.funder }}{% unless forloop.last %}, {% endunless %}{% endfor %}.
+      </p>
+    {% endif %}
+  </div>
+</div>
