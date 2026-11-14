@@ -79,7 +79,7 @@ frequencies.</p>
     </div>
     <div class="research-theme__text">
       <h2>How are normal and malignant division and differentiation decisions molecularly regulated?</h2>
-      <p>Quantifying the dynamics raises the question of what sets them. We
+      <p>Quantifying clonal dynamics raises the question of what sets them. We
       generate single-cell multiome data from primary human tissue to form
       mechanistic hypotheses about the regulation of division and
       differentiation decisions in health and disease, and test those
