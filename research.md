@@ -42,8 +42,8 @@ frequencies.</p>
       humans, but they leave a signature in the mutations cells carry. We
       infer those rates from bulk sequencing data, which makes the approach
       cheap enough to apply across many individuals, and have used it to
-      quantify how the ageing human blood system renews itself (<em>Körber et
-      al., Nature Genetics, 2025</em>).</p>
+      quantify how the ageing human blood system renews itself (<em><a href="https://doi.org/10.1038/s41588-025-02217-y">Körber et
+      al., Nature Genetics, 2025</a></em>).</p>
       <p class="research-theme__links">
         <a href="{{ "/publications/" | relative_url }}">Publications</a>
         <a href="{{ "/software/" | relative_url }}">Software</a>
@@ -60,12 +60,12 @@ frequencies.</p>
       <p>Tumours carry a record of their own history. By dating the genomic
       events in that record we can ask when the first transforming event
       occurred and how long the tumour took to become clinically apparent —
-      years to decades earlier than diagnosis in glioblastoma (<em>Körber et
-      al., Cancer Cell, 2019</em>), during fetal development in neuroblastoma
-      (<em>Körber et al., Nature Genetics, 2023</em>), and, in medulloblastoma,
-      with the oncogene aberrations arriving after initiation rather than
-      causing it (<em>Okonechnikov, Joshi &amp; Körber et al., Nature,
-      2025</em>).</p>
+      years to decades earlier than diagnosis in glioblastoma (<em><a href="https://doi.org/10.1016/j.ccell.2019.02.007">Körber et
+      al., Cancer Cell, 2019</a></em>) and during fetal development in neuroblastoma
+      (<em><a href="https://doi.org/10.1038/s41588-023-01332-y">Körber et al., Nature Genetics, 2023</a></em>). In
+      medulloblastoma, the same approach shows that oncogenic aberrations
+      arrive after tumour initiation rather than causing it (<em><a href="https://doi.org/10.1038/s41586-025-08973-5">Okonechnikov, Joshi &amp; Körber et al., Nature,
+      2025</a></em>).</p>
       <p class="research-theme__links">
         <a href="{{ "/publications/" | relative_url }}">Publications</a>
         <a href="{{ "/software/" | relative_url }}">Software</a>
@@ -84,10 +84,6 @@ frequencies.</p>
       mechanistic hypotheses about the regulation of division and
       differentiation decisions in health and disease, and test those
       hypotheses in in vitro and in vivo models.</p>
-      <p class="research-theme__links">
-        <a href="{{ "/publications/" | relative_url }}">Publications</a>
-        <a href="{{ "/software/" | relative_url }}">Software</a>
-      </p>
     </div>
   </article>
 

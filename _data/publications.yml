@@ -83,7 +83,7 @@
   year: 2025
   volume: 642
   pages: 1062-1072
-  doi: TODO
+  doi: "10.1038/s41586-025-08973-5"
   pmid: TODO
   shared_first: true
   corresponding: false
@@ -131,8 +131,8 @@
   year: 2023
   volume: 55
   pages: 619-630
-  doi: TODO
-  pmid: TODO
+  doi: "10.1038/s41588-023-01332-y"
+  pmid: "36973454"
   shared_first: false
   corresponding: false
   highlight: true
@@ -191,8 +191,8 @@
   year: 2019
   volume: 35
   pages: 692-704
-  doi: TODO
-  pmid: TODO
+  doi: "10.1016/j.ccell.2019.02.007"
+  pmid: "30905762"
   shared_first: false
   corresponding: false
   highlight: false
