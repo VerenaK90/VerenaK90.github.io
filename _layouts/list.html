@@ -19,27 +19,26 @@ layout: default
       {% endfor %}
     {% endfor %}
     </div>
+    <p class="pub-legend">* Shared first authorship. &#8224; Corresponding authorship.</p>
 
   {% elsif page.kind == "software" %}
     <div class="software-list">
     {% for pkg in site.data.software %}
+      {% assign primary_link = pkg.bioconductor | default: pkg.cran | default: pkg.repo %}
       <article class="software-entry">
         {% if pkg.logo %}
           <img class="software-entry__logo" src="{{ "/assets/images/" | append: pkg.logo | relative_url }}" alt="">
         {% endif %}
-        <h2 class="software-entry__name">{{ pkg.name }}</h2>
+        <h2 class="software-entry__name">{% if primary_link %}<a href="{{ primary_link }}">{{ pkg.name }}</a>{% else %}{{ pkg.name }}{% endif %}</h2>
         <p>{{ pkg.description }}</p>
         {% if pkg.install and pkg.install != "TODO" %}
           <p class="software-entry__install"><code>{{ pkg.install }}</code></p>
         {% endif %}
-        <p class="software-entry__links">
-          {% if pkg.repo %}<a href="{{ pkg.repo }}">Repository</a>{% endif %}
-          {% if pkg.docs and pkg.docs != "TODO" %}<a href="{{ pkg.docs }}">Documentation</a>{% endif %}
-          {% if pkg.bioconductor and pkg.bioconductor != "TODO" %}<a href="{{ pkg.bioconductor }}">Bioconductor</a>{% endif %}
-          {% if pkg.cran and pkg.cran != "TODO" %}<a href="{{ pkg.cran }}">CRAN</a>{% endif %}
-          {% if pkg.preprint and pkg.preprint != "TODO" %}<a href="{{ pkg.preprint }}">Preprint</a>{% endif %}
-          {% if pkg.paper_doi and pkg.paper_doi != "" and pkg.paper_doi != "TODO" %}<a href="https://doi.org/{{ pkg.paper_doi }}">Paper</a>{% endif %}
-        </p>
+        {% if pkg.paper_doi and pkg.paper_doi != "" and pkg.paper_doi != "TODO" %}
+          <p class="software-entry__links">
+            <a href="https://doi.org/{{ pkg.paper_doi }}">Paper</a>
+          </p>
+        {% endif %}
       </article>
     {% endfor %}
     </div>

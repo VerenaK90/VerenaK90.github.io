@@ -22,7 +22,7 @@
     a tumour.
   install: BiocManager::install("LACHESIS")
   repo: https://github.com/VerenaK90/LACHESIS
-  docs: https://bioconductor.org/packages/LACHESIS/
+  bioconductor: https://bioconductor.org/packages/LACHESIS/
   preprint: https://doi.org/10.1101/2026.07.24.740074
   paper_doi: ""   # TODO: fill in on journal publication
 
@@ -35,10 +35,3 @@
   repo: https://github.com/VerenaK90/SCIFER
   docs: TODO
   paper_doi: "10.1038/s41588-025-02217-y"
-
-- name: Clonal_hematopoiesis
-  description: TODO
-  install: TODO
-  repo: https://github.com/VerenaK90/Clonal_hematopoiesis
-  docs: TODO
-  paper_doi: TODO
