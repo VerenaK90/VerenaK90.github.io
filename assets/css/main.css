@@ -107,6 +107,7 @@ h3 { font-size: var(--size-h3); }
 
 .prose p, .prose ul, .prose ol { margin-top: 1rem; }
 .prose { max-width: var(--measure); }
+.prose h3 { margin-top: 2rem; }
 
 .group-photo {
   margin: 0 0 2rem;
