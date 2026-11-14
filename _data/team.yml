@@ -78,19 +78,18 @@
   alumnus: false
 
 - name: Nora Benz
-  role: Research Assistant
+  role: Research Scientist
   bio: >
     I use mathematical modelling to understand the dynamics of blood cell
     production. Understanding these dynamics could help explain how healthy
     blood production transitions to diseases such as acute myeloid leukaemia.
     I studied physics at ETH Zürich and completed my Master's thesis there at
     the Department of Biosystems Science and Engineering. I joined the Somatic
-    Evolution Research Group as an intern and am now a research assistant.
+    Evolution Research Group as an intern and am now a research scientist.
   email: nora.benz@ndcls.ox.ac.uk
   photo: benz-nora.jpg
   alumnus: false
 
 - name: Odette Luber
   role: Master's Student
-  now: German Cancer Research Center (DKFZ), Heidelberg
   alumnus: true
