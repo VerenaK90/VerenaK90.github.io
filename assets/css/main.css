@@ -78,7 +78,7 @@ body {
   font-family: var(--font-serif);
   font-size: var(--size-body);
   line-height: 1.65;
-  text-align: left;
+  text-align: center;
 }
 
 a {
@@ -357,6 +357,7 @@ code, .mono {
   background: color-mix(in srgb, var(--accent) 6%, var(--paper));
   padding: 0.6rem 0.8rem;
   overflow-x: auto;
+  text-align: left;
 }
 .software-entry__links {
   margin-top: 0.75rem;
