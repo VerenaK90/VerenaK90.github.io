@@ -109,10 +109,10 @@ h3 { font-size: var(--size-h3); }
 .prose { max-width: var(--measure); }
 .prose h3 { margin-top: 2rem; }
 
-.group-photo {
+.figure {
   margin: 0 0 2rem;
 }
-.group-photo figcaption {
+.figure figcaption {
   margin-top: 0.5rem;
   font-family: var(--font-sans);
   font-size: var(--size-caption);

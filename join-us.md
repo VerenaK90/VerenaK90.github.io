@@ -7,9 +7,9 @@ redirect_from:
   - /OpenPositions.html
 ---
 
-<figure class="group-photo">
-  <img src="{{ "/assets/images/team/group.jpg" | relative_url }}" alt="Members of the group at an informal gathering">
-  <figcaption>The group, outside the lab.</figcaption>
+<figure class="figure">
+  <img src="{{ "/assets/images/team/group.jpg" | relative_url }}" alt="A lit fireplace, standing in until we have a new group photo">
+  <figcaption>Keeping warm until the next group photo.</figcaption>
 </figure>
 
 ## Current openings
