@@ -108,6 +108,9 @@ h3 { font-size: var(--size-h3); }
 .prose p, .prose ul, .prose ol { margin-top: 1rem; }
 .prose { max-width: var(--measure); }
 .prose h3 { margin-top: 2rem; }
+.prose p, .research-theme__text p {
+  text-align: justify;
+}
 
 .figure {
   margin: 0 0 2rem;
@@ -163,7 +166,7 @@ code, .mono {
 }
 .site-header__brand:hover { color: var(--accent); }
 .site-header__mark {
-  width: 1.75rem;
+  width: 2.25rem;
   height: auto;
   flex: 0 0 auto;
 }
@@ -412,6 +415,9 @@ code, .mono {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.research-theme__sketch:not(:has(img)) {
+  display: none;
 }
 .research-theme__sketch img {
   width: 100%;
