@@ -22,7 +22,6 @@ redirect_from:
     <p class="team-card__role">{{ person.role }}</p>
     <p class="team-card__bio">{{ person.bio }}</p>
     {% if person.email %}<p class="team-card__email"><a href="mailto:{{ person.email }}">Email</a></p>{% endif %}
-    {% if person.name == "Verena Körber" %}<p class="team-card__email"><a href="{{ "/pi/" | relative_url }}">Full biography</a></p>{% endif %}
   </article>
 {% endfor %}
 </div>
