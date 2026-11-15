@@ -28,7 +28,7 @@
   year: 2026
   volume:
   pages:
-  doi: TODO
+  doi: TODO   # unpublished preprint; see the Preprint link below
   pmid: TODO
   preprint: https://doi.org/10.1101/2026.07.24.740074
   code: https://github.com/VerenaK90/LACHESIS
@@ -46,8 +46,8 @@
   year: 2026
   volume: 33
   pages: 642-659
-  doi: TODO
-  pmid: TODO
+  doi: "10.1016/j.stem.2026.02.011"
+  pmid: "41875892"
   shared_first: true
   corresponding: false
   highlight: false
@@ -58,7 +58,7 @@
   year: 2026
   volume: "147(6)"
   pages: 613-632
-  doi: TODO
+  doi: "10.1182/blood.2024027948"
   pmid: TODO
   shared_first: true
   corresponding: false
@@ -95,9 +95,9 @@
   year: 2025
   volume: 643
   pages: 478-487
-  doi: TODO
+  doi: "10.1038/s41586-025-09041-8"
   pmid: TODO
-  shared_first: true
+  shared_first: false
   corresponding: false
   highlight: false
 
@@ -107,9 +107,9 @@
   year: 2024
   volume: 15
   pages: "10183"
-  doi: TODO
+  doi: "10.1038/s41467-024-54547-w"
   pmid: TODO
-  shared_first: true
+  shared_first: false
   corresponding: false
   highlight: false
 
@@ -119,9 +119,9 @@
   year: 2024
   volume: 15
   pages: 1-19
-  doi: TODO
+  doi: "10.1038/s41467-024-54709-w"
   pmid: TODO
-  shared_first: true
+  shared_first: false
   corresponding: false
   highlight: false
 
@@ -141,11 +141,11 @@
   authors: "Pixberg, C.*, Schulze, M.*, Hlevnjak, M.*, Benedetto, S., Suppelna, J.P., Heil, J., Smetanay, K., Michel, L., Fremd, C., **Körber, V.**, Rübsam, M., Buschhorn, L. et al."
   journal: ESMO Open
   year: 2022
-  volume:
-  pages: TODO
-  doi: TODO
-  pmid: TODO
-  shared_first: true
+  volume: 7
+  pages: "100637"
+  doi: "10.1016/j.esmoop.2022.100637"
+  pmid: "36423362"
+  shared_first: false
   corresponding: false
   highlight: false
 
@@ -155,8 +155,8 @@
   year: 2021
   volume: 53
   pages: 683-693
-  doi: TODO
-  pmid: TODO
+  doi: "10.1038/s41588-021-00806-1"
+  pmid: "33767450"
   shared_first: false
   corresponding: false
   highlight: false
@@ -167,7 +167,7 @@
   year: 2021
   volume: 23
   pages: 2028-2041
-  doi: TODO
+  doi: "10.1093/neuonc/noab127"
   pmid: TODO
   shared_first: false
   corresponding: false
@@ -179,9 +179,9 @@
   year: 2020
   volume: 80
   pages: 4918-4931
-  doi: TODO
+  doi: "10.1158/0008-5472.CAN-20-1920"
   pmid: TODO
-  shared_first: true
+  shared_first: false
   corresponding: false
   highlight: false
 
@@ -203,7 +203,7 @@
   year: 2019
   volume: 16
   pages: 1-9
-  doi: TODO
+  doi: "10.1016/j.coisb.2019.10.015"
   pmid: TODO
   shared_first: false
   corresponding: false
@@ -218,6 +218,6 @@
   doi: TODO
   pmid: TODO
   preprint: https://doi.org/10.1101/2025.03.04.641452
-  shared_first: true
-  corresponding: true
+  shared_first: false
+  corresponding: false
   highlight: false
