@@ -294,7 +294,7 @@ code, .mono {
 }
 .pub-list {
   max-width: var(--measure);
-  margin-top: 1rem;
+  margin: 1rem auto 0;
 }
 .pub-list__year {
   border-top: 1px solid var(--rule);
@@ -335,14 +335,14 @@ code, .mono {
 /* Software */
 .software-list {
   max-width: var(--measure);
-  margin-top: 1rem;
+  margin: 1rem auto 0;
 }
 .software-entry {
   padding: 1.5rem 0;
   border-bottom: 1px solid var(--rule);
 }
 .software-entry__logo {
-  height: 4.5rem;
+  height: 9rem;
   width: auto;
   margin-bottom: 0.5rem;
 }
@@ -371,7 +371,7 @@ code, .mono {
 /* News */
 .news-list {
   max-width: var(--measure);
-  margin-top: 1rem;
+  margin: 1rem auto 0;
 }
 .news-entry {
   padding: 1.25rem 0;
@@ -398,6 +398,7 @@ code, .mono {
 }
 .research-theme {
   display: flex;
+  justify-content: center;
   gap: 2.5rem;
   padding: 2.5rem 0;
   border-top: 1px solid var(--rule);
@@ -474,7 +475,7 @@ code, .mono {
 }
 .alumni-list {
   max-width: var(--measure);
-  margin-top: 1rem;
+  margin: 1rem auto 0;
 }
 .alumni-list li {
   padding: 0.5rem 0;
