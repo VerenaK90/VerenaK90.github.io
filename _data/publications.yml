@@ -30,7 +30,7 @@
   pages:
   doi: TODO   # unpublished preprint; see the Preprint link below
   pmid: TODO
-  preprint: https://doi.org/10.1101/2026.07.24.740074
+  preprint: https://www.biorxiv.org/content/10.64898/2026.07.24.740074v1
   code: https://github.com/VerenaK90/LACHESIS
   shared_first: false
   corresponding: false   # TODO: set true if Verena is corresponding author
