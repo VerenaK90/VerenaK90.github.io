@@ -1,0 +1,95 @@
+# Team — one entry per person, current members and alumni together.
+#
+# To add someone, copy an existing entry below (the lines starting with
+# "- name:") and fill in the fields. Leave a field blank or write TODO
+# if you don't have the information yet.
+#
+#   name      full name
+#   role      e.g. "Postdoc", "DPhil student", "Medical student", "Intern"
+#   bio       two to three sentences, plain text
+#   email     work email (leave blank for alumni if no longer valid)
+#   photo     filename only, must already exist in assets/images/team/
+#   scholar   optional: Google Scholar profile URL
+#   github    optional: GitHub profile URL
+#   orcid     optional: ORCID profile URL
+#   alumnus:  true if this person has left the group, false otherwise
+#   now       alumni only — their current position, if known
+
+- name: Verena Körber
+  role: Group Leader
+  bio: >
+    Verena leads the Somatic Evolution Research Group at the MRC Weatherall
+    Institute of Molecular Medicine. Her group develops mathematical models that
+    read the history of a tissue out of the mutations its cells carry: how fast
+    stem cells divide, when a clone began to expand, and what drove it. The
+    methods the group builds — among them SCIFER and LACHESIS — are released as
+    open software and have been applied to ageing blood, glioblastoma,
+    neuroblastoma and medulloblastoma. Verena trained in systems biology in Ulm
+    and Heidelberg and holds a Cancer Research UK Career Development Fellowship.
+  email: verena.korber@ndcls.ox.ac.uk
+  photo: koerber-verena.jpg
+  scholar: https://scholar.google.com/citations?user=i_rqemsAAAAJ
+  github: https://github.com/VerenaK90
+  orcid: https://orcid.org/0009-0005-3888-2648
+  alumnus: false
+
+- name: Diego Pérez-Doñes
+  role: Postdoctoral Researcher
+  bio: >
+    I am a postdoctoral researcher using mathematical modelling and multiomics
+    data to investigate gene regulatory network dynamics during cell-state
+    transitions, and to quantify the selection of somatic mutations across
+    treatment. I completed my PhD at the Universidad Autónoma de Madrid,
+    developing quantitative biophysical approaches and algorithmic tools — among
+    them the OSCAR 3D bioimage analysis framework — to analyse dense cellular
+    structures and the dynamics of proliferation and differentiation.
+  email: diego.perezdones@ndcls.ox.ac.uk
+  photo: perez-dones-diego.jpg
+  alumnus: false
+
+- name: Robin Thiele
+  role: Postdoctoral Researcher
+  bio: >
+    Tight regulation of stem- and progenitor cell proliferation and
+    differentiation acts as a safeguard against cancer development. My work aims
+    to understand this interplay by studying the clonal architecture of the
+    haematopoietic system, with a particular focus on lymphoid development under
+    homeostatic conditions and following experimentally induced perturbations
+    that can lead to malignant transformation. Before joining the WIMM, I
+    completed my PhD in the lab of Hans-Reimer Rodewald at the DKFZ in Germany,
+    applying the Polylox in vivo cellular barcoding system with complementary
+    NGS readouts.
+  email: robin.thiele@dkfz-heidelberg.de   # TODO: swap for the Oxford address once issued
+  photo: thiele-robin.jpg
+  alumnus: false
+
+- name: Pauline Wittermann
+  role: Visiting MD Student
+  bio: >
+    In 10–15% of patients with acute myeloid leukaemia or myelodysplastic
+    syndrome, the malignant cells carry an extra copy of chromosome 8 — but
+    which genes on that chromosome give the cells their advantage is still
+    unclear. I am using CRISPR-Cas9-based approaches in cellular models to
+    identify them, and to understand how a change in gene dosage lets a clone
+    expand. I am a medical student at the University of Freiburg, spending a
+    year in Oxford to work on my doctoral thesis.
+  email: pauline.wittermann@rdm.ox.ac.uk
+  photo: wittermann-pauline.jpg
+  alumnus: false
+
+- name: Nora Benz
+  role: Research Scientist
+  bio: >
+    I use mathematical modelling to understand the dynamics of blood cell
+    production. Understanding these dynamics could help explain how healthy
+    blood production transitions to diseases such as acute myeloid leukaemia.
+    I studied physics at ETH Zürich and completed my Master's thesis there at
+    the Department of Biosystems Science and Engineering. I joined the Somatic
+    Evolution Research Group as an intern and am now a research scientist.
+  email: nora.benz@ndcls.ox.ac.uk
+  photo: benz-nora.jpg
+  alumnus: false
+
+- name: Odette Luber
+  role: Master's Student
+  alumnus: true

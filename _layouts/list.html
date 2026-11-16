@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div class="page page--wide">
+  <div class="prose">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
+
+  {% if page.kind == "publications" %}
+    <div class="pub-list">
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% assign years = pubs | map: "year" | uniq %}
+    {% for y in years %}
+      <h2 class="pub-list__year">{{ y }}</h2>
+      {% assign pubs_year = pubs | where: "year", y %}
+      {% for pub in pubs_year %}
+        {% include publication-entry.html publication=pub %}
+      {% endfor %}
+    {% endfor %}
+    </div>
+    <p class="pub-legend">* Shared first authorship. &#8224; Corresponding authorship.</p>
+
+  {% elsif page.kind == "software" %}
+    <div class="software-list">
+    {% for pkg in site.data.software %}
+      {% assign primary_link = pkg.bioconductor | default: pkg.cran | default: pkg.repo %}
+      <article class="software-entry">
+        {% if pkg.logo %}
+          <img class="software-entry__logo" src="{{ "/assets/images/" | append: pkg.logo | relative_url }}" alt="">
+        {% endif %}
+        <h2 class="software-entry__name">{% if primary_link %}<a href="{{ primary_link }}">{{ pkg.name }}</a>{% else %}{{ pkg.name }}{% endif %}</h2>
+        <p>{{ pkg.description }}</p>
+        {% if pkg.install and pkg.install != "TODO" %}
+          <p class="software-entry__install"><code>{{ pkg.install }}</code></p>
+        {% endif %}
+        {% if pkg.paper_doi and pkg.paper_doi != "" and pkg.paper_doi != "TODO" %}
+          <p class="software-entry__links">
+            <a href="https://doi.org/{{ pkg.paper_doi }}">Paper</a>
+          </p>
+        {% endif %}
+      </article>
+    {% endfor %}
+    </div>
+
+  {% elsif page.kind == "news" %}
+    <div class="news-list">
+    {% assign items = site.data.news %}
+    {% if items and items.size > 0 %}
+      {% for item in items %}
+        <article class="news-entry">
+          {% if item.image %}
+            <img class="news-entry__image" src="{{ "/assets/images/" | append: item.image | relative_url }}" alt="">
+          {% endif %}
+          <p class="news-entry__date">{{ item.date | date: "%-d %B %Y" }}</p>
+          <p class="news-entry__text">{% if item.link %}<a href="{{ item.link }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</p>
+        </article>
+      {% endfor %}
+    {% else %}
+      <p>No news yet — add the first item in <code>_data/news.yml</code>.</p>
+    {% endif %}
+    </div>
+  {% endif %}
+</div>

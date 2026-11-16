@@ -1,0 +1,38 @@
+# Funding — one entry per grant, shown on the PI page.
+#
+# To add a grant, copy an existing entry below (the lines starting with
+# "- funder:") and fill in the fields. Leave a field blank or write TODO
+# if you don't have the information yet — do not guess a title or term.
+#
+#   funder      funding body
+#   scheme      the named scheme/fellowship, e.g. "Career Development Fellowship"
+#   title       the grant/project title
+#   role        "PI" or "Co-I"
+#   term        e.g. "2023–2027"
+#   own_award   true for Verena's own competitive awards — these appear in the
+#               funding table and in the home page's "Funded by" row.
+#               false for institutional support — shown only as a plain
+#               acknowledgement line on the PI page, never in the table or on
+#               the home page.
+
+- funder: Cancer Research UK
+  scheme: Career Development Fellowship
+  title: "Quantifying differentiation dynamics and dissecting their molecular regulation in myelodysplastic syndrome and acute myeloid leukemia"
+  role: PI
+  term: 2026–2032
+  own_award: true
+
+- funder: Deutsche Forschungsgemeinschaft (DFG)
+  scheme: Walter Benjamin Fellowship
+  title: "Quantifying the dynamic evolution from myelodysplastic syndrome to acute myeloid leukemia"
+  role: PI
+  term: 2023–2025
+  own_award: true
+
+- funder: MRC Weatherall Institute of Molecular Medicine
+  scheme: Institutional support
+  title: ""
+  role: ""
+  term: ""
+  own_award: false
+  # TODO: exact wording from KJ Patel.
