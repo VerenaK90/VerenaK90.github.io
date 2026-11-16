@@ -54,7 +54,6 @@
   --size-h3: 1.33rem;
   --size-h2: 1.66rem;
   --size-h1: 2.07rem;
-  --size-statement: 2.59rem;
 
   --measure: 68ch;
   --container: 1080px;
@@ -249,11 +248,8 @@ code, .mono {
   padding: 3rem var(--space) 4rem;
 }
 .home__statement {
+  max-width: 78ch;
   margin: 0 auto;
-}
-.home__statement p:first-child {
-  font-size: var(--size-statement);
-  line-height: 1.3;
 }
 .home__highlights,
 .home__funders {
