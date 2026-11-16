@@ -107,6 +107,13 @@ h3 { font-size: var(--size-h3); }
 
 .prose p, .prose ul, .prose ol { margin-top: 1rem; }
 .prose { max-width: var(--measure); }
+
+.page__logo {
+  display: block;
+  width: 10rem;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
 .prose h3 { margin-top: 2rem; }
 .prose p, .research-theme__text p {
   text-align: justify;

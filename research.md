@@ -3,6 +3,7 @@ layout: page
 title: Research
 nav_key: research
 wide: true
+logo: logo-mark.png
 permalink: /research/
 redirect_from:
   - /research.html
