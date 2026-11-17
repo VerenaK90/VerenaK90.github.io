@@ -37,6 +37,7 @@ kramdown:
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 exclude:
   # Setting this key replaces Jekyll's own default exclude list rather
